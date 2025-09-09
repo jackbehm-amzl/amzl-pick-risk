@@ -7,8 +7,8 @@
 // @match        https://logistics.amazon.com/station/dashboard/pick*
 // @match        https://ui.*.last-mile.amazon.dev/*
 // @match        https://*.last-mile.amazon.dev/*
-// @updateURL    https://raw.githubusercontent.com/<your-username>/amzl-pick-risk/main/AMZL_Pick_Risk.user.js
-// @downloadURL  https://raw.githubusercontent.com/<your-username>/amzl-pick-risk/main/AMZL_Pick_Risk.user.js
+// @updateURL    https://github.com/jackbehm-amzl/amzl-pick-risk/raw/refs/heads/main/AMZL%20Pick%20Risk-4.0.user.js
+// @downloadURL  https://github.com/jackbehm-amzl/amzl-pick-risk/raw/refs/heads/main/AMZL%20Pick%20Risk-4.0.user.js
 // @run-at       document-idle
 // @grant        none
 // ==/UserScript==
