@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AMZL Pick Risk
 // @namespace    amzl.pick.risk
-// @version      4.0
+// @version      4.1
 // @author       jackbehm, tugglest
 // @description  Recreation of tugglest's Excel Pick Risk 3.0 tool
 // @match        https://logistics.amazon.com/station/dashboard/pick*
