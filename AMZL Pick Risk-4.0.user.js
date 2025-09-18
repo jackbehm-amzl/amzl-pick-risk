@@ -7,8 +7,8 @@
 // @match        https://logistics.amazon.com/station/dashboard/pick*
 // @match        https://ui.*.last-mile.amazon.dev/*
 // @match        https://*.last-mile.amazon.dev/*
-// @updateURL    https://raw.githubusercontent.com/jackbehm-amzl/amzl-pick-risk/main/AMZL%20Pick%20Risk-4.0.user.js
-// @downloadURL  https://raw.githubusercontent.com/jackbehm-amzl/amzl-pick-risk/main/AMZL%20Pick%20Risk-4.0.user.js
+// @updateURL    https://raw.githubusercontent.com/jackbehm-amzl/amzl-pick-risk/main/AMZL%20Pick%20Risk-4.1.user.js
+// @downloadURL  https://raw.githubusercontent.com/jackbehm-amzl/amzl-pick-risk/main/AMZL%20Pick%20Risk-4.1.user.js
 // @run-at       document-idle
 // @grant        none
 // ==/UserScript==
@@ -325,7 +325,7 @@
         `;
 
         if (!table.length){
-          body.innerHTML = html + `<div style="color:#374151;padding-top:8px">${CFG.showSafe?'No future waves.':'No at-risk waves (non-Safe, non-PAST, non-departed).'}</div>`;
+          body.innerHTML = html + `<div style="color:#374151;padding-top:8px">${CFG.showSafe?'No future waves.':'No at-risk waves.'}</div>`;
           return;
         }
 
